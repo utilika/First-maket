@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>css 5</title>
+    <link rel="stylesheet" href="style_main.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,700;1,100&display=swap" rel="stylesheet">
+    <script defer src="login-popup.js"></script>
+</head>
+<body class="page">
+
+    <header class="header">
+       
+        <img class="site-logo" src="innopolis.png" alt="" width="30px" height="30px">
+    
+        <ul class="site-menu">
+            <li><a class="menu-link" href="index.html">Главная</a></li>
+            <li><a class="menu-link active-link" href="#">Студенты</a></li>
+            <li><a class="menu-link" href="about.html">О курсе</a></li>
+            <li><a class="menu-link" href="contacts.html">Контакты</a></li>
+            
+        </ul>
+
+        <a class="login-button" href="#">Войти</a>
+        
+        <div class="login-popup">
+            <h2 class="login-heading">Войти на сайт</h2>
+            <form class="login-form" action="" method="get">
+                <input class="login-input" name="login" type="text" placeholder="Логин" required="">
+                <input class="password-input" name="password" type="password" placeholder="Пароль" required="">
+                <button class="popup-button" type="submit">Войти</button>
+            </form>
+        </div>
+    </header>
+
+    <main class="main-students">
+        <h1 class="h-students">Студенты потока 08.02.2020 👧👦</h1>
+    
+        <div class="students">
+            
+            <section class="student">
+                <img src="муж.png" alt="Аватар студента" width="200" height="270">
+                <p>Василий Иванов</p>
+            </section>
+            <section class="student">
+                <img src="жен.png" alt="Аватар студента"  width="200" height="270">
+                <p class="two-ava">Мария Александровна</p>
+                <p class="novi4ek">новичок</p>
+            </section>
+            <section class="student">
+                <img src="жен.png" width="200" height="270">
+                <p>Мария Александровна</p>
+            </section>
+            <section class="student">
+                <img src="муж.png" alt="Аватар студента"  width="200" height="270">
+                <p>Василий Иванов</p>
+            </section>
+            <section class="student">
+                <img src="муж.png" alt="Аватар студента"  width="200" height="270">
+                <p>Василий Иванов</p>
+            </section>
+            
+        </div >
+    </main >
+
+    <footer class="footer">
+        <p class="copywrite">2022 &copy; <a class="innop-link" href="https://innopolis.com/">Иннополис</a></p>
+    </footer>
+
+    <script src="http://code.jquery.com/jquery-2.0.2.min.js"></script>
+
+    
+</body>
+</html>
